@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <body>
     <div class="main">
-        <div class="left-box">
-            <img
-                src="https://st2.depositphotos.com/1001599/43046/v/450/depositphotos_430460192-stock-illustration-sign-page-abstract-concept-vector.jpg">
+      <div class="left-box">
+        <img
+          src="https://st2.depositphotos.com/1001599/43046/v/450/depositphotos_430460192-stock-illustration-sign-page-abstract-concept-vector.jpg"
+        />
+      </div>
+      <div class="right-box">
+        <div class="card-login">
+          <h1>Login</h1>
+          <div class="text-field">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail" />
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite sua senha" />
+            <div class="checkbox"><input type="checkbox" />Lembre-me</div>
+          </div>
+
+          <div class="forgot-password">
+            <a
+              href="https://support.google.com/accounts/answer/41078?hl=pt-BR&co=GENIE.Platform%3DAndroid"
+              >Esqueceu a senha?</a
+            >
+          </div>
+
+          <button>Acessar</button>
         </div>
-        <div class="right-box">
-            <div class="card-login">
-                <h1>Login</h1>
-                <div class="text-field">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
-                </div>
-                <div class="text-field">
-                    <label for="senha">Senha</label>
-                    <input type="password" placeholder="Digite sua senha">
-                </div>
-                <div class="other-options">
-                    <div class="checkbox">
-                        <input type="checkbox">Lembre-me
-                    </div>
-                    <div class="forgot-password">
-                        <a href="https://support.google.com/accounts/answer/41078?hl=pt-BR&co=GENIE.Platform%3DAndroid">Esqueceu
-                            a senha?</a>
-                    </div>
-                </div>
-                <button>Login</button>
-            </div>
-        </div>
+      </div>
     </div>
-    </div>
-
-
-</body>
-
+  </body>
 </html>
