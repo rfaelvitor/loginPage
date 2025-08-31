@@ -1,126 +1,146 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 body {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:  #212f3c ;
+  height: 100vh;
+  width: 100vw;
+  background-color: #212f3c;
 }
 
 .main {
-    height: 50vh;
-    width: 50vw;
-    display: flex;
-    border: 5px solid black;
-    background-color: white;
-
-    
-
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
 .left-box {
-    height: 100%;
-    width: 50%;
-    background-color: aqua;
-    
+  height: 100%;
+  width: 50%;
+  background-color: aqua;
 }
 
-.left-box>img {
-    height: 100%;
-    width: 100%;
-
+.left-box > img {
+  height: 100%;
+  width: 100%;
 }
-
 
 .right-box {
-    height: 100%;
-    width: 50%;
-    background-color: rgb(143, 186, 220);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  height: 100%;
+  width: 50%;
+  background-color: #98b9fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-login {
-    height: 60%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px solid black; */
-   
+  /* border: 2px solid blue; */
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .card-login > h1 {
-    color: #1c53ba;
-    font-weight: 800;
-    margin-top: 28%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* border: 2px solid orange; */
+  color: #3262fd;
+  font-weight: 800;
+  width: 100%;
+  /* border: 2px solid orange; */
+  text-align: center;
 }
 
 .text-field {
-    width: 70%; /* largura do texto do formulário */
-    margin: 5%;
-    /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 90%; /* largura do texto do formulário */
+  /* border: 2px solid red; */
+  margin: 30px 0px;
 }
 
-
+.text-field > input:first-of-type {
+  margin-bottom: 10%;
+}
 
 .text-field > input {
-    width: 100%;
-    border: none;
-    padding: 5px;
-    margin-top: 5px;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    outline: none;
-    
+  width: 100%;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  outline: none;
+}
+
+.checkbox {
+  margin-top: 10px;
 }
 
 .card-login > button {
-    height: auto;
-    width: 90%;
-    margin-top: 7%;
-    margin-bottom: 30%;
-    padding: 17px;
-    text-transform: uppercase;
-    font-weight: 700;
-    background-color:  #6495ED ;
-    border-radius: 5px;
-    letter-spacing: 2px;
-    
+  height: auto;
+  width: 90%;
+  /* margin-top: 7%;
+    margin-bottom: 25%; */
+  padding: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #6495ed;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  /* border: 2px solid red; */
 }
-
-
-
-.other-options {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    font-size: 14px;
-
-}
-
-
-
 
 .forgot-password {
-    font-style: italic;
+  width: 90%;
+  text-align: start;
+  font-size: 14px;
+  /* border: 2px solid green; */
+  margin-bottom: 20px;
 }
+
+.forgot-password {
+  font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(40px);
+  }
+
+  .left-box {
+    display: none;
+  }
+
+  .right-box {
+    background-image: url("https://st2.depositphotos.com/1001599/43046/v/450/depositphotos_430460192-stock-illustration-sign-page-abstract-concept-vector.jpg");
+    background-size: cover; /* ajusta a imagem pra cobrir a caixa */
+    background-position: center; /* centraliza a imagem */
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .card-login {
+    filter: blur(0px);
+    backdrop-filter: blur(40px);
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .text-field > input,
+  .card-login > button {
+    border: 1px solid black;
+  }
+}
+
 
 
 
