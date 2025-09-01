@@ -83,7 +83,7 @@ body {
   margin-top: 10px;
 }
 
-.checkbox:hover,
+.checkbox input:hover,
 button:hover {
   cursor: pointer;
 }
@@ -145,6 +145,7 @@ button:hover {
     border: 1px solid black;
   }
 }
+
 
 
 
