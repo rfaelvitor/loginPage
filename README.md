@@ -1,11 +1,17 @@
-# Login Page 🔐
+# 🔑 Login Page (Página de Login)
 
-Projeto de página de login simples para estudo de HTML, CSS e JavaScript.  
+Uma página de login simples e responsiva criada com **HTML e CSS**.  
+Este projeto é focado em **design e responsividade**, sem funcionalidades de validação de campos ou integração com back-end.
 
-## Funcionalidades
-- Formulário de login
-- Validação de campos
-- Feedback visual de erro
+## 🚀 Tecnologias usadas
+- **HTML5**
+- **CSS3**
 
-## Tecnologias
-- HTML, CSS, JavaScript
+## 🔥 Destaques
+- Layout **moderno e limpo**.
+- **100% responsivo**, adaptado para desktop e mobile.
+- Focado em **design UI/UX** – sem JavaScript ou validação de campos.
+
+## 📎 Acesse o projeto
+👉 [Clique aqui para ver a página de login](https://rfaelvitor.github.io/loginpage/)
+
