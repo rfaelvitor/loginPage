@@ -83,6 +83,11 @@ body {
   margin-top: 10px;
 }
 
+.checkbox:hover,
+button:hover {
+  cursor: pointer;
+}
+
 .card-login > button {
   height: auto;
   width: 90%;
@@ -140,6 +145,7 @@ body {
     border: 1px solid black;
   }
 }
+
 
 
 
